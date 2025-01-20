@@ -1,5 +1,5 @@
 ### POST request to register a user
-POST http://localhost:3000/auth/register
+POST https://my-portfolio-2025-byihznatm-bezylmophatotienos-projects.vercel.app/auth/register
 Content-Type: application/json
 
 {
@@ -10,7 +10,7 @@ Content-Type: application/json
 
 
 ### POST request to login a user
-POST http://localhost:3000/auth/login
+POST https://my-portfolio-2025-byihznatm-bezylmophatotienos-projects.vercel.app//auth/login
 Content-Type: application/json
 
 {

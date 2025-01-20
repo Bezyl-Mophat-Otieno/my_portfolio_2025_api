@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.get("/", (req, res) => res.status(200).json("Server running"));
+app.get("/", (req, res) => res.send("Express up and running"));
 app.use('/auth', authRouter);
 
 app.use((err, req, res, next) => {
